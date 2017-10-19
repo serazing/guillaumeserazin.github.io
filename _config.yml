@@ -1,27 +1,96 @@
-# Site settings
-title: My personal website
-email: guillaume.serazin@legos.obs-mip.fr
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-#baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "" # the base hostname & protocol for your site
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# User setting
-owner: Guillaume SERAZIN
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+lang: en-US
+title: Guillaume Sérazin
 email: guillaume.serazin@legos.obs-mip.fr
-facebook_username:
-github_username: serazing
+description: "My public website about me and my research activities"
+baseurl:
+url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+author:
+  name: Guillaume Sérazin
+  github: serazing
+  flickr: Blé noir
+  picture:
 address:
-  - line:
-  - line:
-  # Feel free to add more lines here 
-telephone:
+  - line: Laboratoire d'Étude en Géophysique Océnographie Spatiale
+  - line: 14, Avenue Édouarb Belin 31400 Toulouse
+github_username: serazing
+flickr_username: Blé noir
 copyright:
+logo: http://www.legos.obs-mip.fr/logo.png
 
 # API settings
-google_api_key:
+google_api_key: AIzaSyD5kDEJ8fVvZOSGa4HHKOe77nABJ58FOBQ
 
 # Build settings
 markdown: kramdown
+theme: jekyll-theme-basically-basic
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-scholar
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+# Exclude from processing.
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README
+
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
+
+# Bibliography settings
+scholar:
+  style: american-meteorological-society
+  locale: en
+
+  sort_by: year
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details

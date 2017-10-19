@@ -1,0 +1,27 @@
+ contact:
+    name: Guillaume Sérazin
+    title: Postdoctoral Shcolar
+    department: Department of Earth and Environmental Sciences
+    institution: Laboratoire d'Étude en Géophysique et Observations Spatiales
+    postal-address: 14, Avenue Édouard Belin 31400 Toulouse -8000
+    email: guillaume.serazin@legos.obs-mip.fr
+    phone: +33561332719
+    website: http://serazing.github.io
+
+ education:
+    - degree: Ph.D., Physical Oceanography
+      institution: Université Paul Sabatier
+      location: Toulouse, FR
+      dates: Nov. 2012 -- Oct. 2015
+      thesis: Observability, characterization and predictability of low-frequency oceanic intrinsic variability
+      advisor: Thierry Penduff / Laurent Terray
+    - degree: M.Sc., Fluid Dynamics and Environnement
+      institution: Université Claude Bernard
+      location: Lyon, FR
+      dates: Sept. 2010 -- Oct. 2011
+      thesis: An approximate Neutral density variable for the World’s oceans
+      advisor: Trevor J. McDougall
+    - degree: M.Eng., Aeronautics
+      institution: École Centrale Lyon
+      location: Écully, FR
+      dates: Sept. 2008 -- Oct. 2011
