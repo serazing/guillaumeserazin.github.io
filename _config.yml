@@ -38,33 +38,18 @@ google_api_key: AIzaSyD5kDEJ8fVvZOSGa4HHKOe77nABJ58FOBQ
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-basically-basic
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-scholar
+#plugins:
+#  - jekyll-feed
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+#  - jekyll-paginate
+#  - jekyll-scholar
 feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: /page:num/
-
-# Exclude from processing.
-exclude:
-  - .asset-cache
-  - .bundle
-  - .codeclimate.yml
-  - .editorconfig
-  - .gitattributes
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .scss-lint.yml
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README
 
 # Front Matter Defaults
 defaults:
@@ -82,7 +67,7 @@ scholar:
   locale: en
 
   sort_by: year
-  order: ascending
+  order: descending
 
   source: ./_bibliography
   bibliography: references.bib
@@ -94,3 +79,5 @@ scholar:
   details_dir:    bibliography
   details_layout: bibtex.html
   details_link:   Details
+
+  query: "@*"
