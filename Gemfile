@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # gem "minima"
-gem "jekyll-theme-basically-basic"
+#gem "jekyll-theme-basically-basic"
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -10,6 +10,8 @@ gem "github-pages", group: :jekyll_plugins
 
 
 group :jekyll_plugins do
+    gem "jekyll"
+    gem "jekyll-theme-basically-basic"
     gem "jekyll-paginate"
     gem "jekyll-feed"
     gem "jekyll-scholar"
