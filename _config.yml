@@ -18,7 +18,7 @@ title: Guillaume Sérazin
 email: guillaume.serazin@legos.obs-mip.fr
 description: "My public website about me and my research activities"
 baseurl:
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://serazing.github.io
 author:
   name: Guillaume Sérazin
   github: serazing
@@ -38,6 +38,8 @@ google_api_key: AIzaSyD5kDEJ8fVvZOSGa4HHKOe77nABJ58FOBQ
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-basically-basic
+plugins: ['jekyll/scholar']
+
 #plugins:
 #  - jekyll-feed
 #  - jekyll-seo-tag
