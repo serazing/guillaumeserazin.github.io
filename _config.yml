@@ -37,15 +37,12 @@ google_api_key: AIzaSyD5kDEJ8fVvZOSGa4HHKOe77nABJ58FOBQ
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-basically-basic
-plugins: ['jekyll/scholar']
 
-#plugins:
-#  - jekyll-feed
-#  - jekyll-seo-tag
-#  - jekyll-sitemap
-#  - jekyll-paginate
-#  - jekyll-scholar
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-scholar
 feed:
   path: atom.xml
 
