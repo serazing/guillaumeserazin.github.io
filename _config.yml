@@ -25,7 +25,7 @@ author:
   flickr: Blé noir
   picture:
 address:
-  - line: Clinate Change Research Centre
+  - line: Climate Change Research Centre
   - line: 14, Avenue Édouarb Belin 31400 Toulouse
 github_username: serazing
 flickr_username: Blé noir
@@ -41,7 +41,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-scholar
+#  - jekyll-scholar
   - jekyll-remote-theme
 feed:
   path: atom.xml
