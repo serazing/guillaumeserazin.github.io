@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 lang: en-US
 title: Guillaume Sérazin
-email: guillaume.serazin@legos.obs-mip.fr
+email: g.serazin@unsw.edu.au
 description: "My public website about me and my research activities"
 baseurl:
 url: https://serazing.github.io
@@ -25,12 +25,12 @@ author:
   flickr: Blé noir
   picture:
 address:
-  - line: Laboratoire d'Étude en Géophysique Océnographie Spatiale
+  - line: Clinate Change Research Centre
   - line: 14, Avenue Édouarb Belin 31400 Toulouse
 github_username: serazing
 flickr_username: Blé noir
 copyright:
-logo: http://www.legos.obs-mip.fr/logo.png
+logo: https://www.ccrc.unsw.edu.au/sites/default/files/upload/ccrc-logo.jpg
 
 # API settings
 google_api_key: AIzaSyD5kDEJ8fVvZOSGa4HHKOe77nABJ58FOBQ

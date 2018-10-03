@@ -1,17 +1,17 @@
 {
   "basics": {
     "name": "Guillaume Sérazin",
-    "title": "Postdoctoral Scholar",
+    "title": "Research Associate",
     "picture": "",
-    "email": "guillaume.serazin@legos.obs-mip.fr",
+    "email": "g.serazin@legos.obs-mip.fr",
     "phone": "+33 (0)5 61 33 27 19",
     "website": "https://serazing.github.io/",
     "summary": "",
     "location": {
-      "institution": "Laboratoire d'Études en Géophysique et Océanographie Spatiales",
+      "institution": "Climate Change Research Centre",
       "address": "14, avenue Édouard Belin",
       "postalCode": "31400",
-      "city": "Toulouse",
+      "city": "Sydney",
       "countryCode": "FR",
       "region": ""
     },
@@ -39,15 +39,12 @@
   ],
   "volunteer": [
     {
-      "organization": "Steve's Meat Market",
-      "position": "Assistant",
-      "website": "",
-      "startDate": "1995-01-01",
-      "endDate": "1997-03-20",
-      "summary": "Ground up some sort of grasshopper mash for fishing.",
-      "highlights": [
-        "Awarded a 'Helium Biscuit'"
-      ]
+      "organization": "Club Montagne Blagnac",
+      "position": "Mountain guide",
+      "website": "http://club-montagne.wixsite.com/clubmontagneblagnac",
+      "startDate": "2016",
+      "endDate": "2018",
+      "summary": "",
     }
   ],
   "education": [
