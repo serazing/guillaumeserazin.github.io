@@ -13,18 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-lang: en-US
-title: My Awesome Site
-email:
-description:
+lang: en-AU
+title: Guillaume Sérazin
+email: g.serazin@unsw.edu.au
+description: "My public website about me and my research activities"
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://serazing.github.io
 author:
-  name:
-  twitter:
+  name: Guillaume Sérazin
+  github: serazing
+  flickr: Blé noir
   picture:
-twitter_username:
-github_username:
+github_username: serazing
+flickr_username: Blé noir
+
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: # true, false (default)
 search_full_content: false # true, false (default)
