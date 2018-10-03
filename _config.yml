@@ -32,8 +32,7 @@ flickr_username: Blé noir
 copyright:
 logo: https://www.ccrc.unsw.edu.au/sites/default/files/upload/ccrc-logo.jpg
 
-# API settings
-google_api_key: AIzaSyD5kDEJ8fVvZOSGa4HHKOe77nABJ58FOBQ
+remote_theme: mmistakes/jekyll-theme-basically-basic
 
 # Build settings
 markdown: kramdown
