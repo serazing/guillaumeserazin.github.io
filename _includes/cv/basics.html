@@ -11,8 +11,7 @@
 
   <div class="entry-content">
     {% if cv.basics.email %}
-      <div class="email"><strong>Email</strong> <a
-              href="mailto:{{ cv.basics.email }}">{{ cv.basics.email }}</a></div>
+      <div class="email"><strong>Email</strong> <a href="mailto:{{ cv.basics.email }}">{{ cv.basics.email }}</a></div>
     {% endif %}
     {% if cv.basics.phone %}
       <div class="phone"><strong>Phone</strong> {{ cv.basics.phone }}</div>
@@ -49,9 +48,6 @@
 
     <div class="entry-content">
       <address>
-        {% if cv.basics.location.institution %}
-          <span class="address">{{ cv.basics.location.institution }}</span><br />
-        {% endif %}
         {% if cv.basics.location.address %}
           <span class="address">{{ cv.basics.location.address }}</span><br />
         {% endif %}

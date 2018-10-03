@@ -14,41 +14,67 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Guillaume Sérazin
-email: g.serazin@unsw.edu.au
-description: "My public website about me and my research activities"
-baseurl:
-url: https://serazing.github.io
+title: My Awesome Site
+email:
+description:
+baseurl: # the optional subpath of your site, e.g. "/blog"
+url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name: Guillaume Sérazin
-  github: serazing
-  flickr: Blé noir
+  name:
+  twitter:
   picture:
-address:
-  - line: Climate Change Research Centre
-  - line: 14, Avenue Édouarb Belin 31400 Toulouse
-github_username: serazing
-flickr_username: Blé noir
-copyright:
-logo: https://www.ccrc.unsw.edu.au/sites/default/files/upload/ccrc-logo.jpg
-
-remote_theme: mmistakes/jekyll-theme-basically-basic
+twitter_username:
+github_username:
+logo: # path of site logo, e.g. "/assets/images/logo.png"
+search: # true, false (default)
+search_full_content: false # true, false (default)
+search_provider: # lunr (default), algolia
+algolia:
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 
 # Build settings
 markdown: kramdown
-
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+plugins: # previsously gems
   - jekyll-feed
-#  - jekyll-scholar
-  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
 feed:
   path: atom.xml
+
+# Remote theme for github pages
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: /page:num/
+
+# Exclude from processing.
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - Rakefile
+  - README
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - /docs # ignore Basically Basic sample site
+  - /example # ignore Basically Basic dev site
 
 # Front Matter Defaults
 defaults:
@@ -59,24 +85,3 @@ defaults:
     values:
       layout: post
       read_time: true
-
-# Bibliography settings
-scholar:
-  style: american-meteorological-society
-  locale: en
-
-  sort_by: year
-  order: descending
-
-  source: ./_bibliography
-  bibliography: references.bib
-  bibliography_template: bib
-
-  replace_strings: true
-  join_strings:    true
-
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
-
-  query: "@*"

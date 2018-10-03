@@ -2,8 +2,8 @@
   <div class="inner">
     <div class="intro-text">
       <h1 class="intro-title">{{ cv.basics.name | default: page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-      {% if cv.basics.title %}
-        <p class="intro-subtitle">{{ cv.basics.title | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% if cv.basics.label %}
+        <p class="intro-subtitle">{{ cv.basics.label | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       {% endif %}
 
       {% if page.actions %}
