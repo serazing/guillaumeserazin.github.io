@@ -263,6 +263,7 @@ DEPENDENCIES
   github-pages
   jekyll-feed
   jekyll-paginate
+  jekyll-remote-theme
   jekyll-scholar
   jekyll-sitemap
 

@@ -42,6 +42,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-scholar
+  - jekyll-remote-theme
 feed:
   path: atom.xml
 
