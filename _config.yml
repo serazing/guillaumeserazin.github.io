@@ -23,11 +23,11 @@ author:
   name: Guillaume Sérazin
   github: serazing
   flickr: Blé noir
-  picture:
+  picture: /assets/images/GS.jpg
 github_username: serazing
 flickr_username: Blé noir
 
-logo: # path of site logo, e.g. "/assets/images/logo.png"
+logo: https://uploads.mystudentvillage.com/2015/08/22190754/UNSW.jpg
 search: # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: # lunr (default), algolia
@@ -44,6 +44,7 @@ plugins: # previsously gems
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-scholar
 feed:
   path: atom.xml
 
@@ -87,3 +88,24 @@ defaults:
     values:
       layout: post
       read_time: true
+
+# Bibliography settings
+scholar:
+  style: american-meteorological-society
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: ./_bibliography
+  bibliography: papers.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
